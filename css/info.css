@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #0077cc;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #ffffff;
+    border-bottom: 2px solid #0077cc;
+    padding: 10px 0;
+    text-align: center;
+    position: relative; /* Permite que el nav bar sea visualmente distinto del contenido */
+}
+
+nav a {
+    color: #0077cc;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    padding: 80px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #0077cc;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: relative; /* Evita que el footer sea fijo para mantener el estilo de blog */
+    margin-top: 20px;
+}
+
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}

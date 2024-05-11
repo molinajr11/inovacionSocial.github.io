@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:whitesmoke;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: rgb(242, 161, 79);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+.title-section {
+    background-color: #007bff98;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.title-section h1 {
+    margin: 0;
+}
+
+.presentation, .register {
+    padding: 20px;
+    text-align: center;
+}
+
+.presentation h2, .register h2 {
+    color: #007BFF;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
